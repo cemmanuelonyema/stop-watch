@@ -1,0 +1,56 @@
+*,*::before, *::after{
+    margin: 0;
+    padding: 0;
+    box-sizing: inherit;
+    outline:  0;
+}
+
+html{
+    font: 300 62.5% Lato, sans-serif;
+}
+
+body{
+    color: #777;
+    box-sizing: border-box;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-image: linear-gradient(to bottom right, #ffbfac, #ff9c7e)
+}
+
+.h1{
+    font-size: 5rem;
+    margin-bottom: 15rem;
+}
+
+.h2{
+    font-size: 2rem;    
+}
+
+.btn{
+    border: 5px solid #0023ec;
+    height: 6rem;
+    width: 6rem;
+    font-weight: 700;
+    font-size: 1.3rem;
+    border-radius: 50%;
+    margin: 0 1rem;
+    background-color: transparent;
+    color: #0023ec;
+
+}
+.btn:hover, .btn:active{
+    color: #fff;
+    background-color: #0023ec;
+    transition: all .3s;
+
+}
+.timer span{
+    font-size: 5rem;
+}
+
+.buttons{
+    margin-top: 2rem;
+}
